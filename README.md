@@ -1,4 +1,37 @@
-# statefulwidget
+# Increment Decrement di Flutter.
+![Hasil Aplikasi](https://github.com/cahyoarifandiyarto/Increment-Decrement-Flutter/blob/master/screenshot/WhatsApp%20Image%202019-11-20%20at%2012.52.15.jpeg)
+
+# Penjelasan
+```
+class Home extends StatefulWidget{
+    @override
+    HomeState createState() => HomeState();
+}
+```
+Dalam kelas Home kita membuat state dengan nama kelas HomeState.
+
+Lalu kita membuat kelas HomeState untuk membangun tampilan layar, mendefinisikan state, fungsi fungsi untuk merubah state.
+```
+class HomeState extends State<Home> {
+    // inisialisasi state
+    int counter = 0;
+
+    // fungsi gunsi untuk merubah state
+    void incrementCounter() {
+        // ...
+    }
+
+    void decrementCounter() {
+        // ...
+    }
+
+    // membangun tampilan layar
+    @override
+    Widget build(BuildContext context) {
+        // ...
+    }
+}
+```
 
 A new Flutter project.
 
